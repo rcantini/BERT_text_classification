@@ -1,6 +1,6 @@
 # BERT_text_classification
 
-How to fine-tune a BERT classifier using Huggingface and Keras+Tensorflow.
+How to fine-tune a BERT classifier using the Huggingface <a href="https://huggingface.co/transformers/quicktour.html">Transformers library</a> and Keras+Tensorflow.
 
 Two different classification problems are addressed:
 - <a href="https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews">IMDB sentiment analysis</a>: detect the sentiment of a movie review, classifying it according to its polarity, i.e. *negative* or *positive*.
