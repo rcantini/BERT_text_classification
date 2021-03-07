@@ -1,13 +1,13 @@
 # BERT_text_classification
 
-How to fine-tune a BERT classifier using the Huggingface <a href="https://huggingface.co/transformers/quicktour.html">Transformers library</a> and Keras+Tensorflow.
+How to fine-tune a BERT classifier using the Huggingface <a href="https://huggingface.co/transformers/quicktour.html">Transformers</a> library and Keras+Tensorflow.
 
 Two different classification problems are addressed:
 - <a href="https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews">IMDB sentiment analysis</a>: detect the sentiment of a movie review, classifying it according to its polarity, i.e. *negative* or *positive*.
 - <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data">Toxic comment classification</a>: determine the toxicity of a Wikipedia comment, predicting a probability for each type of toxicity, i.e. *toxic*, *severe toxic*, *obscene*, *threat*, *insult* and *identity hate*.
 
 The develeped applications are comprised of the following steps:
-- ***Sampling of the dataset***: in order to keep the training times acceptable, both datasets have been sampled.
+- ***Sampling of the dataset***: in order to keep the training time acceptable, both datasets have been sampled.
 - ***Fine tuning of the BERT classifier***: a classification layer is stacked on top of the BERT encoder and the entire model is fine-tuned.
 - ***Performance evaluation***: I evaluated the trained model using ROC_AUC and Accuracy metrics. I further tested the model by preparing a bunch of sentences, achieving very good results.
 
