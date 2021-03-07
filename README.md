@@ -4,7 +4,7 @@ How to fine-tune a BERT classifier using Huggingface in Keras+Tensorflow.
 
 Two different classification problems are addressed:
 - <a href="https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews">IMDB sentiment analysis</a>: detect the sentiment of a movie review, classifying it according to its polarity, i.e. *negative* or *positive*.
-- <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data">Toxic comment classification challenge</a>: classify a comment according to its toxicity, expressed by one or more labels among: *toxic*, *severe toxic*, *obscene*, *threat*, *insult* and *identity hate*.
+- <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data">Toxic comment classification</a>: classify a comment according to its toxicity, expressed by one or more labels among: *toxic*, *severe toxic*, *obscene*, *threat*, *insult* and *identity hate*.
 
 The develeped applications are comprised of the following steps:
 - ***Sampling of the dataset***: in order to keep the training times acceptable, both datasets have been sampled.
