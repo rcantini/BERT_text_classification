@@ -13,6 +13,12 @@ The develeped applications are comprised of the following steps:
 
 For further information, check out my blog post: https://riccardo-cantini.netlify.app/post/bert_text_classification/
 
+## Prediction examples
+### Sentiment analysis
+<img src="BERT_text_classification/review_sentiment/results/pred_sent.PNG" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: 90%"/>
+### Toxicity detection
+<img src="BERT_text_classification/toxic_comments/results/pred_tox.PNG" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: 90%"/>
+
 ## Requirements
 - tensorflow_addons==0.12.0
 - matplotlib==3.3.3
