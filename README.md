@@ -19,7 +19,7 @@ For further information, check out my blog post: https://riccardo-cantini.netlif
 <img src="https://github.com/rcantini/BERT_text_classification/blob/main/review_sentiment/results/pred_sent.PNG" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: 90%"/>
 
 ### Toxicity detection
-<img src="../../tree/main/toxic_comments/results/pred_tox.PNG" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: 90%"/>
+<img src="https://github.com/rcantini/BERT_text_classification/blob/main/toxic_comments/results/pred_tox.PNG" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: 90%"/>
 
 ## Requirements
 - tensorflow_addons==0.12.0
