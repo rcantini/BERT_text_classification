@@ -16,10 +16,10 @@ For further information, check out my blog post: https://riccardo-cantini.netlif
 ## Prediction examples
 
 ### Sentiment analysis
-<img src="../../review_sentiment/results/pred_sent.PNG" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: 90%"/>
+<img src="../../tree/main/review_sentiment/results/pred_sent.PNG" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: 90%"/>
 
 ### Toxicity detection
-<img src="../../toxic_comments/results/pred_tox.PNG" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: 90%"/>
+<img src="../../tree/main/toxic_comments/results/pred_tox.PNG" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: 90%"/>
 
 ## Requirements
 - tensorflow_addons==0.12.0
