@@ -16,10 +16,7 @@ For further information, check out my blog post: https://riccardo-cantini.netlif
 ## Prediction examples
 
 ### Sentiment analysis
-
-<div style="margin: 0; position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);">
 <img src="https://github.com/rcantini/BERT_text_classification/blob/main/review_sentiment/results/pred_sent.PNG" style="margin-left: auto; margin-right: auto; width: 90%; height: 90%"/>
-</div>
 
 ### Toxicity detection
 <img src="https://github.com/rcantini/BERT_text_classification/blob/main/toxic_comments/results/pred_tox.PNG" style="margin-left: auto; margin-right: auto; width: 90%; height: 90%"/>
