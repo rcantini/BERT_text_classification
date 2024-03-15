@@ -1,4 +1,4 @@
-# BERT_text_classification
+# Play with BERT! Text classification using Huggingface and Tensorflow
 
 How to fine-tune a BERT classifier using the Huggingface <a href="https://huggingface.co/transformers/quicktour.html">Transformers</a> library and Keras+Tensorflow.
 
