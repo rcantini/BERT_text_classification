@@ -79,9 +79,9 @@ def get_data(n_train=5000, n_val=500, n_test=512):  # per-class number of sample
 
 def create_model():
     input_ids = layers.Input(shape=(MAX_SEQ_LEN,), dtype=tf.int32, name='input_ids')
-    input_type = layers.Input(shape=(MAX_SEQ_LEN,), dtype=tf.int32, name='token_type_ids')
     input_mask = layers.Input(shape=(MAX_SEQ_LEN,), dtype=tf.int32, name='attention_mask')
-    inputs = [input_ids, input_type, input_mask]
+    input_type = layers.Input(shape=(MAX_SEQ_LEN,), dtype=tf.int32, name='token_type_ids')
+    inputs = [input_ids, input_mask, input_type]
     bert = TFBertModel.from_pretrained(BERT_NAME)
     bert_outputs = bert(inputs)
     last_hidden_states = bert_outputs.last_hidden_state
